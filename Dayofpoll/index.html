@@ -65,8 +65,8 @@
 
 <section id="swatchContainer">
 
-  <figure class="resizeSwatch">
-    <button type="button" onclick="myFunction()"></button>
+  <figure class="resizeSwatch1">
+    <button type="button"></button>
   </figure>
   <figure class="resizeSwatch">
     <figcaption>
@@ -120,9 +120,24 @@
 
 <script> 
 
-function myFunction() {
-    document.getElementById("radioContainer_1").innerHTML = "Helloo";
+const resizeSwatch1 = document.querySelector('.resizeSwatch1')
+const radioContainer1 = document.querySelector('#radioContainer_1')
+
+resizeSwatch1.onclick = () =>{
+  // radioContainer1.style.backgroundColor = 'red'
+  radioContainer1.classList.add('red')
+  // radioContainer1.classList.remove('red')
+  
 }
+
+
+
+
+// function myFunction() {
+//     document.getElementById("radioContainer_1").innerHTML = "Helloo";
+// }
+
+// <button type="button" onclick="myFunction()"></button>
 
 </script>
 </html>

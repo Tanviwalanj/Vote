@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
 :root {
   --stack-margin-sm: 1em;
-  --stack-margin-md: 2em;
+  --stack-margin-md: 10em;
 }
 
 * {
@@ -223,7 +223,7 @@ h1 {
   }
 }
 
-.tagline { font-size: 80px;
+.tagline { font-size: 60px;
 	text-align: right;
-	margin-right: 10px;
-  margin-top: 10px;}
+	margin-right: 100px;
+  margin-bottom: 10px;}
