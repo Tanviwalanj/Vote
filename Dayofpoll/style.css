@@ -65,7 +65,7 @@
     border-radius: 35px;
   }
   
-  .resizeSwatch {
+  .resizeSwatch, .resizeSwatch1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,8 +74,8 @@
     overflow: auto;
     width: 120px;
     height: 80px;
-    min-width: 60px;
-    min-height: 60px;
+    min-width: 20px;
+    min-height: 20px;
     max-height: 99%;
     background: #0C4093;
     background-size: 120%;
@@ -88,7 +88,7 @@
     transition: all 0.15s ease;
   }
   
-  .resizeSwatch:hover {
+  .resizeSwatch, .resizeSwatch1:hover {
     cursor: pointer;
     transform: translateY(-5px);
     transition: all 0.15s ease;
@@ -139,16 +139,16 @@
     justify-content: center;
     resize: both;
     overflow: auto;
-    width: 5px;
+    width: 3px;
     border-radius: 35px;
-    height: 40px;
-    min-width: 60px;
-    min-height: 60px;
+    height: 30px;
+    min-width: 50px;
+    min-height: 50px;
     max-height: 99%;
     background: #6D1B33;
     background-size: 120%;
     background-position: center;
-    margin: 10px;
+    margin: 11px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
       rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     border-top: 1px solid black;
@@ -166,4 +166,3 @@
     background-color: red;
   }
 
-  radioContainer_1{ color:green;}
