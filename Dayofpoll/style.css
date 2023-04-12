@@ -71,7 +71,7 @@
     align-items: center;
     justify-content: center;
     resize: both;
-    overflow: auto;
+   /* overflow: auto;*/
     width: 120px;
     height: 30px;
     min-width: 20px;
@@ -140,7 +140,6 @@
     align-items: right;
     justify-content: center;
     resize: both;
-    overflow: auto;
     width: 3px;
     border-radius: 35px;
     height: -30px;
