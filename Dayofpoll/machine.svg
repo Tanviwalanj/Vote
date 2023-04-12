@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1157 1796">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #979797;
+        stroke-width: .78px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #d7ccca;
+      }
+
+      .cls-5 {
+        fill: #606060;
+      }
+
+      .cls-2 {
+        fill: #ded2da;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-6 {
+        font-family: Inter-Regular, Inter;
+        font-size: 38.8px;
+        font-variation-settings: 'wght' 400, 'slnt' 0;
+      }
+
+      .cls-3 {
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" x="97.56" y="125.32" width="965" height="1592" rx="77.03" ry="77.03"/>
+  <rect class="cls-2" x="139.06" y="232.82" width="573" height="1354" rx="48.41" ry="48.41"/>
+  <line class="cls-3" x1="139.56" y1="284.82" x2="712.56" y2="284.82"/>
+  <g>
+    <line class="cls-3" x1="139.56" y1="363.82" x2="712.56" y2="363.82"/>
+    <line class="cls-3" x1="139.56" y1="455.82" x2="712.56" y2="455.82"/>
+    <line class="cls-3" x1="139.56" y1="547.82" x2="712.56" y2="547.82"/>
+    <line class="cls-3" x1="139.56" y1="639.82" x2="712.56" y2="639.82"/>
+    <line class="cls-3" x1="139.56" y1="734.82" x2="712.56" y2="734.82"/>
+    <line class="cls-3" x1="139.56" y1="828.82" x2="712.56" y2="828.82"/>
+    <line class="cls-3" x1="139.56" y1="923.82" x2="712.56" y2="923.82"/>
+    <line class="cls-3" x1="139.56" y1="1010.82" x2="712.56" y2="1010.82"/>
+    <line class="cls-3" x1="139.56" y1="1107.82" x2="712.56" y2="1107.82"/>
+    <line class="cls-3" x1="139.56" y1="1202.82" x2="712.56" y2="1202.82"/>
+    <line class="cls-3" x1="139.56" y1="1291.82" x2="712.56" y2="1291.82"/>
+    <line class="cls-3" x1="139.56" y1="1385.82" x2="712.56" y2="1385.82"/>
+    <line class="cls-3" x1="139.56" y1="1482.82" x2="712.56" y2="1482.82"/>
+  </g>
+  <g>
+    <line class="cls-1" x1="712.56" y1="363.82" x2="1061.56" y2="363.82"/>
+    <line class="cls-1" x1="712.56" y1="455.82" x2="1061.56" y2="455.82"/>
+    <line class="cls-1" x1="712.56" y1="547.82" x2="1061.56" y2="547.82"/>
+    <line class="cls-1" x1="712.56" y1="639.82" x2="1061.56" y2="639.82"/>
+    <line class="cls-1" x1="712.56" y1="734.82" x2="1061.56" y2="734.82"/>
+    <line class="cls-1" x1="712.56" y1="828.82" x2="1061.56" y2="828.82"/>
+    <line class="cls-1" x1="712.56" y1="923.82" x2="1061.56" y2="923.82"/>
+    <line class="cls-1" x1="712.56" y1="1010.82" x2="1061.56" y2="1010.82"/>
+    <line class="cls-1" x1="712.56" y1="1107.82" x2="1061.56" y2="1107.82"/>
+    <line class="cls-1" x1="712.56" y1="1202.82" x2="1061.56" y2="1202.82"/>
+    <line class="cls-1" x1="712.56" y1="1287.82" x2="1061.56" y2="1287.82"/>
+    <line class="cls-1" x1="712.56" y1="1385.82" x2="1061.56" y2="1385.82"/>
+    <line class="cls-1" x1="712.56" y1="1482.82" x2="1061.56" y2="1482.82"/>
+  </g>
+  <line class="cls-3" x1="207.48" y1="232.82" x2="207.48" y2="1586.82"/>
+  <line class="cls-3" x1="590.06" y1="233.32" x2="590.06" y2="1587.32"/>
+  <rect class="cls-5" x="859.56" y="188.32" width="159.5" height="50" rx="12" ry="12"/>
+  <text class="cls-6" transform="translate(162.29 339.67)"><tspan x="0" y="0">1</tspan></text>
+  <text class="cls-6" transform="translate(272.29 339.67)"><tspan x="0" y="0">AAA</tspan></text>
+  <text class="cls-6" transform="translate(638.29 336.67)"><tspan x="0" y="0">∑</tspan></text>
+  <text class="cls-6" transform="translate(638.29 420.67)"><tspan x="0" y="0">∆</tspan></text>
+  <text class="cls-6" transform="translate(636.29 512.67)"><tspan x="0" y="0">Ω</tspan></text>
+  <text class="cls-6" transform="translate(636.29 604.67)"><tspan x="0" y="0">≈</tspan></text>
+  <text class="cls-6" transform="translate(642.29 698.67)"><tspan x="0" y="0">∫</tspan></text>
+  <text class="cls-6" transform="translate(638.29 798.67)"><tspan x="0" y="0">∆</tspan></text>
+  <text class="cls-6" transform="translate(636.29 890.67)"><tspan x="0" y="0">Ω</tspan></text>
+  <text class="cls-6" transform="translate(638.29 982.67)"><tspan x="0" y="0">∆</tspan></text>
+  <text class="cls-6" transform="translate(636.29 1071.67)"><tspan x="0" y="0">Ω</tspan></text>
+  <text class="cls-6" transform="translate(638.29 1163.67)"><tspan x="0" y="0">∆</tspan></text>
+  <text class="cls-6" transform="translate(272.29 423.67)"><tspan x="0" y="0">BBB</tspan></text>
+  <text class="cls-6" transform="translate(272.29 514.67)"><tspan x="0" y="0">CCC</tspan></text>
+  <text class="cls-6" transform="translate(272.29 606.67)"><tspan x="0" y="0">DDD</tspan></text>
+  <text class="cls-6" transform="translate(272.29 703.67)"><tspan x="0" y="0">EEE</tspan></text>
+  <text class="cls-6" transform="translate(272.29 792.67)"><tspan x="0" y="0">FFF</tspan></text>
+  <text class="cls-6" transform="translate(272.29 886.67)"><tspan x="0" y="0">GGG</tspan></text>
+  <text class="cls-6" transform="translate(272.29 979.67)"><tspan x="0" y="0">HHH</tspan></text>
+  <text class="cls-6" transform="translate(272.29 1070.67)"><tspan x="0" y="0">III</tspan></text>
+  <text class="cls-6" transform="translate(272.29 1169.67)"><tspan x="0" y="0">JJJ</tspan></text>
+  <text class="cls-6" transform="translate(161.29 423.67)"><tspan x="0" y="0">2</tspan></text>
+  <text class="cls-6" transform="translate(161.29 516.67)"><tspan x="0" y="0">3</tspan></text>
+  <text class="cls-6" transform="translate(160.29 607.67)"><tspan x="0" y="0">4</tspan></text>
+  <text class="cls-6" transform="translate(162.29 703.67)"><tspan x="0" y="0">5</tspan></text>
+  <text class="cls-6" transform="translate(162.29 794.67)"><tspan x="0" y="0">6</tspan></text>
+  <text class="cls-6" transform="translate(162.29 890.67)"><tspan x="0" y="0">7</tspan></text>
+  <text class="cls-6" transform="translate(160.29 980.67)"><tspan x="0" y="0">8</tspan></text>
+  <text class="cls-6" transform="translate(160.29 1070.67)"><tspan x="0" y="0">9</tspan></text>
+  <text class="cls-6" transform="translate(151.29 1169.67)"><tspan x="0" y="0">10</tspan></text>
+</svg>

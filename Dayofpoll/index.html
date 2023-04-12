@@ -8,6 +8,9 @@
 
 </head>
 <body>
+  <div class="machine">
+      <img src="machine.svg" class="machine"> 
+  </div>
   
   <section id="radioContainer">
     <figure id="radioContainer_1" class="RadioSwatch">
@@ -65,44 +68,52 @@
 
 <section id="swatchContainer">
 
-  <figure class="resizeSwatch1">
-    <button type="button"></button>
+  <figure class="resizeSwatch1" >
+    <button onclick="text1()" type="button"></button>
   </figure>
   <figure id="resizeSwatch2" class="resizeSwatch">
-    <button type="button"></button>
+    <button onclick="text2()" type="button"></button>
   </figure>
   <figure id="resizeSwatch3" class="resizeSwatch">
-    <button type="button"></button>
+    <button onclick="text3()" type="button"></button>
   </figure>
   <figure id="resizeSwatch4" class="resizeSwatch">
-    <button type="button"></button>
+    <button onclick="text4()" type="button"></button>
   </figure>
   <figure id="resizeSwatch5" class="resizeSwatch">
-    <button type="button"></button>
+    <button onclick="text5()" type="button"></button>
   </figure>
   <figure id="resizeSwatch6" class="resizeSwatch">
-    <button type="button"></button>
+    <button onclick="text6()" type="button"></button>
   </figure>
   <figure id="resizeSwatch7" class="resizeSwatch">
-    <button type="button"></button>
+    <button onclick="text7()" type="button"></button>
   </figure>
   <figure id="resizeSwatch8" class="resizeSwatch">
-    <button type="button"></button>
+    <button onclick="text8()" type="button"></button>
   </figure>
   <figure id="resizeSwatch9" class="resizeSwatch">
-    <button type="button"></button>
+    <button onclick="text9()" type="button"></button>
   </figure>
   <figure id="resizeSwatch10" class="resizeSwatch">
-    <button type="button"></button>
+    <button onclick="text10()" type="button"></button>
   </figure>
    
 </section>
 
-<div class="box">
+<div class="boxy">
   <picture>
     <img src="box.svg" class="vector"> 
   </picture>
 </div>
+
+<section>
+  <figure id="square1" class="square">
+    <figcaption>
+      <i></i>
+    </figcaption>
+  </figure>
+</section>
 
 
 </body>
@@ -112,17 +123,17 @@
 
 
 
-
-
-
 <script> 
 
 const resizeSwatch1 = document.querySelector('.resizeSwatch1')
 const radioContainer1 = document.querySelector('#radioContainer_1')
+const square1 = document.querySelector('#square')
 
 resizeSwatch1.onclick = () =>{
   // radioContainer1.style.backgroundColor = 'red'
-  radioContainer1.classList.add('red')
+  radioContainer1.classList.add('red'),
+  //square1.classList.add('green')
+  //square1.innerHTML = "hello";
   radioContainer_2.classList.remove('red')
   radioContainer_3.classList.remove('red')
   radioContainer_4.classList.remove('red')
@@ -255,10 +266,77 @@ resizeSwatch10.onclick = () =>{
 }
 
 
+function text1() {
+        document.getElementById("square1").innerHTML =
+       // "<span style='font-size:40px'>AA ∑</span>";
+       '<span class="inside">AAA ∑</span>';
+    }
 
-// function myFunction() {
-//     document.getElementById("radioContainer_1").innerHTML = "Helloo";
-// }
+function text2() {
+        document.getElementById("square1").innerHTML =
+       // "<span style='font-size:40px'>AA ∑</span>";
+       '<span class="inside">BBB ∆</span>';
+    }
+
+function text3() {
+        document.getElementById("square1").innerHTML =
+       // "<span style='font-size:40px'>AA ∑</span>";
+       '<span class="inside">CCC Ω</span>';
+    }
+
+function text4() {
+        document.getElementById("square1").innerHTML =
+       // "<span style='font-size:40px'>AA ∑</span>";
+       '<span class="inside">DDD ≈</span>';
+    }
+
+function text5() {
+        document.getElementById("square1").innerHTML =
+       // "<span style='font-size:40px'>AA ∑</span>";
+       '<span class="inside">EEE ∫</span>';
+    }
+
+function text6() {
+        document.getElementById("square1").innerHTML =
+       // "<span style='font-size:40px'>AA ∑</span>";
+       '<span class="inside">FFF #</span>';
+    }
+
+function text7() {
+        document.getElementById("square1").innerHTML =
+       // "<span style='font-size:40px'>AA ∑</span>";
+       '<span class="inside">GGG ¢</span>';
+    }
+
+function text8() {
+        document.getElementById("square1").innerHTML =
+       // "<span style='font-size:40px'>AA ∑</span>";
+       '<span class="inside">HHH §</span>';
+    }
+
+function text9() {
+        document.getElementById("square1").innerHTML =
+       // "<span style='font-size:40px'>AA ∑</span>";
+       '<span class="inside">III ∞</span>';
+    }
+
+function text10() {
+        document.getElementById("square1").innerHTML =
+       // "<span style='font-size:40px'>AA ∑</span>";
+       '<span class="inside">JJJ £</span>';
+    }
+
+
+//document.getElementById('text').onclick = function text(){
+//ctx.strokeStyle = "#589";
+//ctx.font = "35px Arial";
+// ctx.fillText("Hellow World !!!", 100, 100);}
+
+
+
+
+//function myFunction() {
+    // document.getElementById("radioContainer_1").innerHTML = "Helloo";}
 
 // <button type="button" onclick="myFunction()"></button>
 
