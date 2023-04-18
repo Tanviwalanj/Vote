@@ -31,20 +31,20 @@
   
   #swatchContainer {
     position: relative;
-    overflow: visible;
+    /*overflow: visible;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #0C4093;
+    /*background-color: #0C4093;
     background-image: radial-gradient(#000000 0.1px, #D7CCCA 0px);
     background-size: 15px 15px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center;*/
     height: 530px;
     width: 60px;
-    padding-left: 62px;
-    margin-top: -191px;
+    padding-left: 43px;
+    margin-top: -68px;
     /*max-width: calc(100% - 10px);
     max-height: calc(100% - 10px);*/
   }
@@ -73,26 +73,27 @@
     resize: both;
    /* overflow: auto;*/
     width: 120px;
-    height: 30px;
+    height: 27px;
     min-width: 20px;
     min-height: 10px;
     max-height: 99%;
-    background: #0C4093;
+    /*background: #0C4093;*/
     background-size: 120%;
     background-position: center;
-    margin: 8px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    margin: 4.5px;
+    /*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,*/
+    /*  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;*/
+   /* border-top: 1px solid black;*/
+   /* border-bottom: 1px solid black;*/
     transition: all 0.15s ease;
   }
-  
+
+  /*
   .resizeSwatch, .resizeSwatch1:hover {
     cursor: pointer;
     transform: translateY(-5px);
     transition: all 0.15s ease;
-  }
+  }*/
 
   .resizeSwatch:active {
     transform: scale(0.97) translateY(0px);
@@ -129,8 +130,8 @@
     background-position: center;
     /*max-width: calc(100% - 10px);
     max-height: calc(100% - 10px);*/
-    margin-left: -212px;
-    margin-top: -204px;
+    margin-left: -175px;
+    margin-top: -71px;
     height: 30px;
   }
   
@@ -143,8 +144,8 @@
     width: 3px;
     border-radius: 35px;
     height: -30px;
-    min-width: 24px;
-    min-height: 24px;
+    min-width: 14px;
+    min-height: 14px;
     max-height: 99%;
     background: #6D1B33;
     background-size: 120%;
@@ -159,7 +160,7 @@
   
   button {
     background-color: #0C4093;
-    width: 120px;
+    width: 90px;
     height: 400px;
   }
 
@@ -171,7 +172,7 @@
     height: 110px;
     width: 90px;
     margin-left: -212px;
-    margin-top: -13px;
+    margin-top: 235px;
     background-color: #DED2DA;
     border-radius: 5px;
   }
@@ -182,11 +183,82 @@
   margin-left: 5px; }
 
   .machine{ 
-    height: 980px;
+    height: 770px;
     width: 650px;
-    margin-left: 40px;
+    margin-left: 92px;
+    margin-top: 32px;
   }
 
   .box{
-    margin-left: 87px;
+    margin-left: 50px;
+    margin-bottom:-258px;
   }
+
+
+/*
+#container .box {
+  width:100vw;
+  height:100vh;
+  display:inline-block;
+  position:relative;
+}
+#container .box > div {
+  width:100px;
+  height:100px;
+  font-size:96px;
+  color:#FFF;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin:-50px 0 0 -50px;
+  line-height:.7;
+  font-weight:bold;
+}
+#container {
+  overflow-y:scroll;
+  overflow-x:hidden;
+  transform: rotate(270deg) translateX(-100%);
+  transform-origin: top left;
+  background-color:#999;
+  position:absolute;
+  width:100vh;
+  height:100vw;
+}
+#container2 {
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  white-space:nowrap;
+  font-size:0;
+}
+
+.one {
+  background-color: #45CCFF;
+}
+.two {
+  background-color: #49E83E;
+}
+.three {
+  background-color: #EDDE05;
+}
+.four {
+  background-color: #E84B30;
+}
+
+
+/* Translating the content's X ruines the scrollbar length. */
+/*
+#container {
+  overflow:scroll;
+  transform: rotate(90deg) translateY(-100%);
+  transform-origin: top left;
+  background-color:#999;
+  position:absolute;
+  width:100vh;
+  height:100vw;
+}
+#container2 {
+  transform: rotate(-90deg) translateX(-100vw);
+  transform-origin: top left;
+  white-space:nowrap;
+}
+*/
