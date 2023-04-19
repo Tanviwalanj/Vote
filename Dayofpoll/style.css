@@ -26,7 +26,10 @@
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background: #eee;
+    color: #224;
+    background:
+      url(bg.jpg)
+      center / cover no-repeat fixed;
   }
   
   #swatchContainer {
@@ -43,7 +46,7 @@
     background-position: center;*/
     height: 530px;
     width: 60px;
-    padding-left: 43px;
+    padding-left: 19px;
     margin-top: -68px;
     /*max-width: calc(100% - 10px);
     max-height: calc(100% - 10px);*/
@@ -145,7 +148,7 @@
     border-radius: 35px;
     height: -30px;
     min-width: 14px;
-    min-height: 14px;
+    min-height: 12px;
     max-height: 99%;
     background: #6D1B33;
     background-size: 120%;
@@ -160,7 +163,7 @@
   
   button {
     background-color: #0C4093;
-    width: 90px;
+    width: 60px;
     height: 400px;
   }
 
@@ -179,8 +182,9 @@
 
   .inside { 
     
-  font-size:40px;
-  margin-left: 5px; }
+  font-size:18px;
+  margin-left: 5px;
+max-width: 5px; }
 
   .machine{ 
     height: 770px;
@@ -194,71 +198,89 @@
     margin-bottom:-258px;
   }
 
+  /*nav bar
 
-/*
-#container .box {
-  width:100vw;
-  height:100vh;
-  display:inline-block;
-  position:relative;
-}
-#container .box > div {
-  width:100px;
-  height:100px;
-  font-size:96px;
-  color:#FFF;
-  position:absolute;
-  top:50%;
-  left:50%;
-  margin:-50px 0 0 -50px;
-  line-height:.7;
-  font-weight:bold;
-}
-#container {
-  overflow-y:scroll;
-  overflow-x:hidden;
-  transform: rotate(270deg) translateX(-100%);
-  transform-origin: top left;
-  background-color:#999;
-  position:absolute;
-  width:100vh;
-  height:100vw;
-}
-#container2 {
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
-  white-space:nowrap;
-  font-size:0;
-}
-
-.one {
-  background-color: #45CCFF;
-}
-.two {
-  background-color: #49E83E;
-}
-.three {
-  background-color: #EDDE05;
-}
-.four {
-  background-color: #E84B30;
-}
+  .nav {
+    display: flex;
+    align-items: center;
+    padding: 0.2em 0.5em;
+  }
+  @media (min-width: 60em) {
+    .nav {
+      padding: 1em 2em;
+    }
+  }
+  .nav__item {
+    color: #b72d12;
+    text-decoration: none;
+    padding: 0.5em;
+    transition: box-shadow 200ms ease-out;
+  }
+  .nav__item:not(.nav__item--brand-logo) {
+    box-shadow: 0px 0px currentcolor;
+  }
+  .nav__item:not(.nav__item--brand-logo):hover, .nav__item:not(.nav__item--brand-logo):focus, .nav__item:not(.nav__item--brand-logo):active {
+    box-shadow: 0px 1px currentcolor, 0px 2px currentcolor, 0px 3px currentcolor, 0px 4px currentcolor;
+  }
+  @media (min-width: 40em) {
+    .nav__item {
+      padding: 0.5em 1em;
+      margin-left: 1.5em;
+    }
+  }
+  .nav__item--brand-logo {
+    margin-left: 0;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #FCF2F0;
+  }
+  */
 
 
-/* Translating the content's X ruines the scrollbar length. */
-/*
-#container {
-  overflow:scroll;
-  transform: rotate(90deg) translateY(-100%);
-  transform-origin: top left;
-  background-color:#999;
-  position:absolute;
-  width:100vh;
-  height:100vw;
-}
-#container2 {
-  transform: rotate(-90deg) translateX(-100vw);
-  transform-origin: top left;
-  white-space:nowrap;
-}
-*/
+  /*cards*/
+
+  :root {
+    font-size: 20px;
+    box-sizing: inherit;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  p:not(:last-child) {
+    margin-bottom: 1.5em;
+  }
+
+  .card {
+    font: 14px Inter, sans-serif;
+    max-width: 300px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+    /*height: 300px;*/
+    width: 500px;
+    margin-left: 100px;
+    padding: 35px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  
+    backdrop-filter: blur(15px);
+  }
+  
+  .card-footer {
+    font-size: 0.65em;
+    color: #446;
+  }
+  

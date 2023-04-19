@@ -16,11 +16,43 @@
       }
 
       .cls-5 {
-        fill: #d7ccca;
+        letter-spacing: 0em;
       }
 
       .cls-6 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-9 {
+        fill: #eae4e8;
+      }
+
+      .cls-10 {
+        fill: #d7ccca;
+      }
+
+      .cls-11 {
         fill: #606060;
+      }
+
+      .cls-12 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.03em;
       }
 
       .cls-2 {
@@ -32,9 +64,20 @@
         stroke: #000;
       }
 
-      .cls-7 {
-        font-family: Inter-Regular, Inter;
+      .cls-15 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
         font-size: 38.8px;
+      }
+
+      .cls-17, .cls-18 {
+        font-family: Inter-Regular, Inter;
         font-variation-settings: 'wght' 400, 'slnt' 0;
       }
 
@@ -42,12 +85,16 @@
         stroke-width: 1px;
       }
 
+      .cls-18 {
+        font-size: 25.65px;
+      }
+
       .cls-4 {
         stroke-width: .98px;
       }
     </style>
   </defs>
-  <rect class="cls-5" x="97.56" y="125.32" width="965" height="1592" rx="77.03" ry="77.03"/>
+  <rect class="cls-10" x="97.56" y="125.32" width="965" height="1592" rx="77.03" ry="77.03"/>
   <rect class="cls-2" x="139.06" y="232.82" width="573" height="1322.68" rx="47.85" ry="47.85"/>
   <g>
     <line class="cls-3" x1="139.56" y1="284.82" x2="712.56" y2="284.82"/>
@@ -85,35 +132,36 @@
   </g>
   <line class="cls-4" x1="207.48" y1="232.82" x2="207.48" y2="1554.51"/>
   <line class="cls-4" x1="590.06" y1="233.31" x2="590.06" y2="1555"/>
-  <rect class="cls-6" x="859.56" y="188.32" width="159.5" height="50" rx="12" ry="12"/>
-  <text class="cls-7" transform="translate(162.29 339.67)"><tspan x="0" y="0">1</tspan></text>
-  <text class="cls-7" transform="translate(272.29 339.67)"><tspan x="0" y="0">AAA</tspan></text>
-  <text class="cls-7" transform="translate(638.29 336.67)"><tspan x="0" y="0">∑</tspan></text>
-  <text class="cls-7" transform="translate(638.29 424.67)"><tspan x="0" y="0">∆</tspan></text>
-  <text class="cls-7" transform="translate(636.29 509.67)"><tspan x="0" y="0">Ω</tspan></text>
-  <text class="cls-7" transform="translate(636.29 590.67)"><tspan x="0" y="0">≈</tspan></text>
-  <text class="cls-7" transform="translate(646.29 674.67)"><tspan x="0" y="0">∫</tspan></text>
-  <text class="cls-7" transform="translate(638.29 759.67)"><tspan x="0" y="0">#</tspan></text>
-  <text class="cls-7" transform="translate(636.29 851.67)"><tspan x="0" y="0">¢</tspan></text>
-  <text class="cls-7" transform="translate(638.29 934.67)"><tspan x="0" y="0">§</tspan></text>
-  <text class="cls-7" transform="translate(636.29 1020.67)"><tspan x="0" y="0">∞</tspan></text>
-  <text class="cls-7" transform="translate(638.29 1100.67)"><tspan x="0" y="0">£</tspan></text>
-  <text class="cls-7" transform="translate(272.29 424.67)"><tspan x="0" y="0">BBB</tspan></text>
-  <text class="cls-7" transform="translate(272.29 514.67)"><tspan x="0" y="0">CCC</tspan></text>
-  <text class="cls-7" transform="translate(272.29 592.67)"><tspan x="0" y="0">DDD</tspan></text>
-  <text class="cls-7" transform="translate(272.29 679.67)"><tspan x="0" y="0">EEE</tspan></text>
-  <text class="cls-7" transform="translate(272.29 762.67)"><tspan x="0" y="0">FFF</tspan></text>
-  <text class="cls-7" transform="translate(272.29 849.67)"><tspan x="0" y="0">GGG</tspan></text>
-  <text class="cls-7" transform="translate(272.29 931.67)"><tspan x="0" y="0">HHH</tspan></text>
-  <text class="cls-7" transform="translate(272.29 1019.67)"><tspan x="0" y="0">III</tspan></text>
-  <text class="cls-7" transform="translate(272.29 1100.67)"><tspan x="0" y="0">JJJ</tspan></text>
-  <text class="cls-7" transform="translate(161.29 424.67)"><tspan x="0" y="0">2</tspan></text>
-  <text class="cls-7" transform="translate(161.29 516.67)"><tspan x="0" y="0">3</tspan></text>
-  <text class="cls-7" transform="translate(160.29 593.67)"><tspan x="0" y="0">4</tspan></text>
-  <text class="cls-7" transform="translate(162.29 679.67)"><tspan x="0" y="0">5</tspan></text>
-  <text class="cls-7" transform="translate(162.29 764.67)"><tspan x="0" y="0">6</tspan></text>
-  <text class="cls-7" transform="translate(162.29 848.67)"><tspan x="0" y="0">7</tspan></text>
-  <text class="cls-7" transform="translate(160.29 932.67)"><tspan x="0" y="0">8</tspan></text>
-  <text class="cls-7" transform="translate(160.29 1019.67)"><tspan x="0" y="0">9</tspan></text>
-  <text class="cls-7" transform="translate(151.29 1100.67)"><tspan x="0" y="0">10</tspan></text>
+  <rect class="cls-11" x="859.56" y="188.32" width="159.5" height="50" rx="12" ry="12"/>
+  <text class="cls-17" transform="translate(162.29 339.67)"><tspan x="0" y="0">1</tspan></text>
+  <text class="cls-17" transform="translate(272.29 339.67)"><tspan class="cls-13" x="0" y="0">T</tspan><tspan x="23.75" y="0">OPNA</tspan></text>
+  <text class="cls-17" transform="translate(638.29 336.67)"><tspan x="0" y="0">∑</tspan></text>
+  <text class="cls-17" transform="translate(638.29 424.67)"><tspan x="0" y="0">∆</tspan></text>
+  <text class="cls-17" transform="translate(636.29 509.67)"><tspan x="0" y="0">Ω</tspan></text>
+  <text class="cls-17" transform="translate(636.29 590.67)"><tspan x="0" y="0">≈</tspan></text>
+  <text class="cls-17" transform="translate(646.29 674.67)"><tspan x="0" y="0">∫</tspan></text>
+  <text class="cls-17" transform="translate(638.29 759.67)"><tspan x="0" y="0">#</tspan></text>
+  <text class="cls-17" transform="translate(636.29 851.67)"><tspan x="0" y="0">¢</tspan></text>
+  <text class="cls-17" transform="translate(638.29 934.67)"><tspan x="0" y="0">§</tspan></text>
+  <text class="cls-17" transform="translate(636.29 1020.67)"><tspan x="0" y="0">∞</tspan></text>
+  <text class="cls-17" transform="translate(272.29 424.67)"><tspan class="cls-15" x="0" y="0">F</tspan><tspan class="cls-16" x="19.23" y="0">ARHEEN</tspan></text>
+  <text class="cls-17" transform="translate(272.29 514.67)"><tspan x="0" y="0">JOSH</tspan></text>
+  <text class="cls-17" transform="translate(272.29 592.67)"><tspan x="0" y="0">BHAR</tspan><tspan class="cls-8" x="104.98" y="0">A</tspan><tspan x="127.9" y="0">TI</tspan></text>
+  <text class="cls-17" transform="translate(272.29 679.67)"><tspan x="0" y="0">SURAJMAL</tspan></text>
+  <text class="cls-17" transform="translate(272.29 762.67)"><tspan class="cls-6" x="0" y="0">K</tspan><tspan class="cls-5" x="23.97" y="0">OMA</tspan></text>
+  <text class="cls-17" transform="translate(272.29 849.67)"><tspan x="0" y="0">AJAL</tspan></text>
+  <text class="cls-17" transform="translate(272.29 931.67)"><tspan x="0" y="0">BREJA</tspan></text>
+  <text class="cls-17" transform="translate(272.29 1019.67)"><tspan x="0" y="0">KHIMJI</tspan></text>
+  <text class="cls-17" transform="translate(272.29 1100.67)"><tspan x="0" y="0">N</tspan><tspan class="cls-12" x="29.21" y="0">O</tspan><tspan class="cls-8" x="57.59" y="0">T</tspan><tspan x="79.19" y="0">A</tspan></text>
+  <text class="cls-17" transform="translate(161.29 424.67)"><tspan x="0" y="0">2</tspan></text>
+  <text class="cls-17" transform="translate(161.29 516.67)"><tspan x="0" y="0">3</tspan></text>
+  <text class="cls-17" transform="translate(160.29 593.67)"><tspan x="0" y="0">4</tspan></text>
+  <text class="cls-17" transform="translate(162.29 679.67)"><tspan x="0" y="0">5</tspan></text>
+  <text class="cls-17" transform="translate(162.29 764.67)"><tspan x="0" y="0">6</tspan></text>
+  <text class="cls-17" transform="translate(162.29 848.67)"><tspan x="0" y="0">7</tspan></text>
+  <text class="cls-17" transform="translate(160.29 932.67)"><tspan x="0" y="0">8</tspan></text>
+  <text class="cls-17" transform="translate(160.29 1019.67)"><tspan x="0" y="0">9</tspan></text>
+  <text class="cls-17" transform="translate(151.29 1100.67)"><tspan x="0" y="0">10</tspan></text>
+  <rect class="cls-9" x="609" y="1065" width="84" height="48" rx="10.05" ry="10.05"/>
+  <text class="cls-18" transform="translate(615.29 1098.87)"><tspan x="0" y="0">N</tspan><tspan class="cls-14" x="19.31" y="0">O</tspan><tspan class="cls-7" x="38.08" y="0">T</tspan><tspan x="52.36" y="0">A</tspan></text>
 </svg>
