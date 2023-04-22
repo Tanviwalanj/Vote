@@ -10,6 +10,38 @@
 
 <body>
 
+<div class="w3-container">
+  <h2>Day of the poll: step by step</h2>
+  <p></p>
+</div>
+
+<div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button" onclick="openCity('London')">Step 1</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Step 2</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Step 3</button>
+</div>
+
+<div id="London" class="w3-container city">
+  <div class="card">
+    <p>First polling official will check your name on the voter list and check your <strong>ID proof</strong>
+      Second polling official will <strong>ink your finger, give you a slip and take your signature on a register (Form 17A)</strong>
+      You will have to <strong>deposit the slip </strong>at the third polling official and show your inked finger and then proceed to the polling booth</p>
+    <p class="card-footer">electronic voting machine</p>
+  </div>
+  <img src="people.png" class="people"> 
+</div>
+
+<div id="Paris" class="w3-container city" style="display:none">
+  <!-- <h2>2</h2> -->
+  <!-- <p>Some text</p>  -->
+  <div class="card">
+    <p> Electronic voting is the standard means of conducting elections using <strong>Electronic Voting Machines (EVMs)</strong> in India.</p>
+    <p class="card-footer">electronic voting machine</p>
+  </div>
+  <img src="table.jpg" class="table"> 
+</div>
+
+<div id="Tokyo" class="w3-container city" style="display:none">
   <div class="card">
     <p>Tap any of the <strong>blue buttons</strong> to cast a vote for the candidate of your choice. Or you can select None of the above option (NOTA)</p>
     <p class="card-footer">electronic voting machine</p>
@@ -17,101 +49,101 @@
 
   <div class="machine">
       <img src="machine.svg" class="machine"> 
+      <section id="radioContainer">
+        <figure id="radioContainer_1" class="RadioSwatch">
+          <figcaption>
+            <i></i>
+          </figcaption>
+        </figure>
+        <figure id="radioContainer_2" class="RadioSwatch">
+          <figcaption>
+            <i></i>
+          </figcaption>
+        </figure>
+        <figure id="radioContainer_3" class="RadioSwatch">
+          <figcaption>
+            <i></i>
+          </figcaption>
+        </figure>
+        <figure id="radioContainer_4" class="RadioSwatch">
+          <figcaption>
+            <i></i>
+          </figcaption>
+        </figure>
+        <figure id="radioContainer_5" class="RadioSwatch">
+          <figcaption>
+            <i></i>
+          </figcaption>
+        </figure>
+        <figure id="radioContainer_6" class="RadioSwatch">
+          <figcaption>
+            <i></i>
+          </figcaption>
+        </figure>
+        <figure id="radioContainer_7" class="RadioSwatch">
+          <figcaption>
+            <i></i>
+          </figcaption>
+        </figure>
+        <figure id="radioContainer_8" class="RadioSwatch">
+          <figcaption>
+            <i></i>
+          </figcaption>
+        </figure>
+        <figure id="radioContainer_9" class="RadioSwatch">
+          <figcaption>
+            <i></i>
+          </figcaption>
+        </figure>
+        <figure id="radioContainer_10" class="RadioSwatch">
+          <figcaption>
+            <i></i>
+          </figcaption>
+        </figure>
+      </section>
+      
+    
+    <section id="swatchContainer">
+    
+      <figure class="resizeSwatch1" >
+        <button onclick="text1()" onClick="sound('audio1',this.id);myPress(this.id)" type="button"></button>
+      </figure>
+      <figure id="resizeSwatch2" class="resizeSwatch">
+        <button onclick="text2()" type="button"></button>
+      </figure>
+      <figure id="resizeSwatch3" class="resizeSwatch">
+        <button onclick="text3()" type="button"></button>
+      </figure>
+      <figure id="resizeSwatch4" class="resizeSwatch">
+        <button onclick="text4()" type="button"></button>
+      </figure>
+      <figure id="resizeSwatch5" class="resizeSwatch">
+        <button onclick="text5()" type="button"></button>
+      </figure>
+      <figure id="resizeSwatch6" class="resizeSwatch">
+        <button onclick="text6()" type="button"></button>
+      </figure>
+      <figure id="resizeSwatch7" class="resizeSwatch">
+        <button onclick="text7()" type="button"></button>
+      </figure>
+      <figure id="resizeSwatch8" class="resizeSwatch">
+        <button onclick="text8()" type="button"></button>
+      </figure>
+      <figure id="resizeSwatch9" class="resizeSwatch">
+        <button onclick="text9()" type="button"></button>
+      </figure>
+      <figure id="resizeSwatch10" class="resizeSwatch">
+        <button onclick="text10()" type="button"></button>
+      </figure>
+       </section> 
   </div>
   
-  <section id="radioContainer">
-    <figure id="radioContainer_1" class="RadioSwatch">
-      <figcaption>
-        <i></i>
-      </figcaption>
-    </figure>
-    <figure id="radioContainer_2" class="RadioSwatch">
-      <figcaption>
-        <i></i>
-      </figcaption>
-    </figure>
-    <figure id="radioContainer_3" class="RadioSwatch">
-      <figcaption>
-        <i></i>
-      </figcaption>
-    </figure>
-    <figure id="radioContainer_4" class="RadioSwatch">
-      <figcaption>
-        <i></i>
-      </figcaption>
-    </figure>
-    <figure id="radioContainer_5" class="RadioSwatch">
-      <figcaption>
-        <i></i>
-      </figcaption>
-    </figure>
-    <figure id="radioContainer_6" class="RadioSwatch">
-      <figcaption>
-        <i></i>
-      </figcaption>
-    </figure>
-    <figure id="radioContainer_7" class="RadioSwatch">
-      <figcaption>
-        <i></i>
-      </figcaption>
-    </figure>
-    <figure id="radioContainer_8" class="RadioSwatch">
-      <figcaption>
-        <i></i>
-      </figcaption>
-    </figure>
-    <figure id="radioContainer_9" class="RadioSwatch">
-      <figcaption>
-        <i></i>
-      </figcaption>
-    </figure>
-    <figure id="radioContainer_10" class="RadioSwatch">
-      <figcaption>
-        <i></i>
-      </figcaption>
-    </figure>
-  </section>
+  <audio id="audio1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
   
-
-<section id="swatchContainer">
-
-  <figure class="resizeSwatch1" >
-    <button onclick="text1()" type="button"></button>
-  </figure>
-  <figure id="resizeSwatch2" class="resizeSwatch">
-    <button onclick="text2()" type="button"></button>
-  </figure>
-  <figure id="resizeSwatch3" class="resizeSwatch">
-    <button onclick="text3()" type="button"></button>
-  </figure>
-  <figure id="resizeSwatch4" class="resizeSwatch">
-    <button onclick="text4()" type="button"></button>
-  </figure>
-  <figure id="resizeSwatch5" class="resizeSwatch">
-    <button onclick="text5()" type="button"></button>
-  </figure>
-  <figure id="resizeSwatch6" class="resizeSwatch">
-    <button onclick="text6()" type="button"></button>
-  </figure>
-  <figure id="resizeSwatch7" class="resizeSwatch">
-    <button onclick="text7()" type="button"></button>
-  </figure>
-  <figure id="resizeSwatch8" class="resizeSwatch">
-    <button onclick="text8()" type="button"></button>
-  </figure>
-  <figure id="resizeSwatch9" class="resizeSwatch">
-    <button onclick="text9()" type="button"></button>
-  </figure>
-  <figure id="resizeSwatch10" class="resizeSwatch">
-    <button onclick="text10()" type="button"></button>
-  </figure>
-   </section>
-
 <div>
   <picture>
     <img src="box.svg" class="box"> 
   </picture>
-</div>
 
 <section>
   <figure id="square1" class="square">
@@ -120,6 +152,10 @@
     </figcaption>
   </figure>
 </section>
+</div>
+
+</div>
+
 
 </body>
 </html>
@@ -344,6 +380,20 @@ function text10() {
     // document.getElementById("radioContainer_1").innerHTML = "Helloo";}
 
 // <button type="button" onclick="myFunction()"></button>
+
+//Tabs
+
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
+
+
+
 
 </script>
 </html>

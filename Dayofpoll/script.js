@@ -16,3 +16,5 @@ resizeSwatch1.onclick = () =>{
 // }
 
 // <button type="button" onclick="myFunction()"></button>
+
+
