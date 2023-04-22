@@ -178,14 +178,29 @@
   }
 
   .w3-bar-item {
-    width: 300px;
-    height: 50px;
-    background-color: #242424;
-    color: #ffffff;
-    font-size: 1.5rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    align-content: left;
+    background-color: rgb(30, 30, 30);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    transition: color 200ms ease-out, box-shadow 150ms ease-out, transform 200ms ease-out;
+    box-shadow: -1px 1px currentcolor, -2px 2px currentcolor, -3px 3px currentcolor, -4px 4px currentcolor;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 2px solid currentcolor;
+    width: 80px;
+    height: 20px;
+  
+  }
+
+  .w3-bar-item:hover, .cta-btn:focus {
+    color: #FCF2F0;
+    box-shadow: -1px 1px currentcolor, -2px 2px currentcolor, -3px 3px currentcolor, -4px 4px currentcolor, -5px 5px currentcolor, -6px 6px currentcolor;
+    transform: translatey(-2px);
+  }
+  .w3-bar-item:active {
+    box-shadow: -1px 1px 0 0 currentcolor;
+    transform: translatey(0px);
   }
 
   .red{
