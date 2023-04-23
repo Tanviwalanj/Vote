@@ -11,8 +11,7 @@
 <body>
 
 <div class="w3-container">
-  <h2>Day of the poll: step by step</h2>
-  <p></p>
+  <h2></h2>
 </div>
 
 <div class="w3-bar w3-black">
@@ -48,8 +47,8 @@
 
 <div id="Tokyo" class="w3-container city" style="display:none">
   <div class="card">
-    <p>Tap any of the <strong>blue buttons</strong> to cast a vote for the candidate of your choice. Or you can select None of the above option (NOTA)</p>
-    <p class="card-footer">electronic voting machine</p>
+    <p>Tap any of the blue buttons to cast a vote for the candidate of your choice. Or you can select None of the above option (NOTA)</p>
+    <p class="card-footer">Casting your Vote</p>
   </div>
 
   <div class="machine">
@@ -111,53 +110,54 @@
     <section id="swatchContainer">
     
       <figure class="resizeSwatch1" >
-        <button onclick="text1()" onClick="sound('audio1',this.id);myPress(this.id)" type="button"></button>
+        <button onclick="text1()" id="myButton" type="button"></button>
       </figure>
       <figure id="resizeSwatch2" class="resizeSwatch">
-        <button onclick="text2()" type="button"></button>
+        <button onclick="text2()" id="myButton2" type="button"></button>
       </figure>
       <figure id="resizeSwatch3" class="resizeSwatch">
-        <button onclick="text3()" type="button"></button>
+        <button onclick="text3()" id="myButton3" type="button"></button>
       </figure>
       <figure id="resizeSwatch4" class="resizeSwatch">
-        <button onclick="text4()" type="button"></button>
+        <button onclick="text4()" id="myButton4" type="button"></button>
       </figure>
       <figure id="resizeSwatch5" class="resizeSwatch">
-        <button onclick="text5()" type="button"></button>
+        <button onclick="text5()" id="myButton5" type="button"></button>
       </figure>
       <figure id="resizeSwatch6" class="resizeSwatch">
-        <button onclick="text6()" type="button"></button>
+        <button onclick="text6()" id="myButton6" type="button"></button>
       </figure>
       <figure id="resizeSwatch7" class="resizeSwatch">
-        <button onclick="text7()" type="button"></button>
+        <button onclick="text7()" id="myButton7" type="button"></button>
       </figure>
       <figure id="resizeSwatch8" class="resizeSwatch">
-        <button onclick="text8()" type="button"></button>
+        <button onclick="text8()" id="myButton8" type="button"></button>
       </figure>
       <figure id="resizeSwatch9" class="resizeSwatch">
-        <button onclick="text9()" type="button"></button>
+        <button onclick="text9()" id="myButton9" type="button"></button>
       </figure>
       <figure id="resizeSwatch10" class="resizeSwatch">
-        <button onclick="text10()" type="button"></button>
+        <button onclick="text10()" id="myButton10" type="button"></button>
       </figure>
        </section> 
   </div>
-  
-  <audio id="audio1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+
+<div id="square1" class="square"></div>
   
 <div>
   <picture>
     <img src="box.svg" class="box"> 
   </picture>
-
-<section>
-  <figure id="square1" class="square">
-    <figcaption>
-      <i></i>
-    </figcaption>
-  </figure>
-</section>
 </div>
+
+
+   <!-- <section>
+    <figure id="square1" class="square">
+    </figure>
+  </section>
+</div> -->
+
+
 
 </div>
 
@@ -379,13 +379,6 @@ function text10() {
 // ctx.fillText("Hellow World !!!", 100, 100);}
 
 
-
-
-//function myFunction() {
-    // document.getElementById("radioContainer_1").innerHTML = "Helloo";}
-
-// <button type="button" onclick="myFunction()"></button>
-
 //Tabs
 
 function openCity(cityName) {
@@ -397,6 +390,76 @@ function openCity(cityName) {
   document.getElementById(cityName).style.display = "block";  
 }
 
+//beep sound audio 
+var beep = new Audio(); // Create an audio object
+    beep.src = 'beep.mp3'; // Set the source of the audio file
+
+    document.getElementById('myButton').addEventListener('click', function() {
+      beep.play(); // Play the audio file
+    });
+
+var beep = new Audio(); // Create an audio object
+    beep.src = 'beep.mp3'; // Set the source of the audio file
+
+    document.getElementById('myButton2').addEventListener('click', function() {
+      beep.play(); // Play the audio file
+    });
+
+var beep = new Audio(); // Create an audio object
+    beep.src = 'beep.mp3'; // Set the source of the audio file
+
+    document.getElementById('myButton3').addEventListener('click', function() {
+      beep.play(); // Play the audio file
+    });
+
+var beep = new Audio(); // Create an audio object
+    beep.src = 'beep.mp3'; // Set the source of the audio file
+
+    document.getElementById('myButton4').addEventListener('click', function() {
+      beep.play(); // Play the audio file
+    });
+
+var beep = new Audio(); // Create an audio object
+    beep.src = 'beep.mp3'; // Set the source of the audio file
+
+    document.getElementById('myButton5').addEventListener('click', function() {
+      beep.play(); // Play the audio file
+    });
+
+var beep = new Audio(); // Create an audio object
+    beep.src = 'beep.mp3'; // Set the source of the audio file
+
+    document.getElementById('myButton6').addEventListener('click', function() {
+      beep.play(); // Play the audio file
+    });
+
+var beep = new Audio(); // Create an audio object
+    beep.src = 'beep.mp3'; // Set the source of the audio file
+
+    document.getElementById('myButton7').addEventListener('click', function() {
+      beep.play(); // Play the audio file
+    });
+    
+var beep = new Audio(); // Create an audio object
+    beep.src = 'beep.mp3'; // Set the source of the audio file
+
+    document.getElementById('myButton8').addEventListener('click', function() {
+      beep.play(); // Play the audio file
+    });
+
+var beep = new Audio(); // Create an audio object
+    beep.src = 'beep.mp3'; // Set the source of the audio file
+
+    document.getElementById('myButton9').addEventListener('click', function() {
+      beep.play(); // Play the audio file
+    });
+
+var beep = new Audio(); // Create an audio object
+    beep.src = 'beep.mp3'; // Set the source of the audio file
+
+    document.getElementById('myButton10').addEventListener('click', function() {
+      beep.play(); // Play the audio file
+    });
 
 
 
