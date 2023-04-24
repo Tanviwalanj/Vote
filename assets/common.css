@@ -24,6 +24,11 @@ body {
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
 }
+@media (min-width: 90em) {
+  .body {
+    min-height: 90vh;
+  }
+}
 
 img {
   height: auto;
@@ -40,7 +45,7 @@ h1 {
 
 @media (max-width: 800px) {
   .h1 { 
-    font-size: 20px;
+    font-size: 4rem
     }
   }
   
@@ -50,6 +55,7 @@ p {
   line-height: 1.6;
   margin: 0;
 }
+
 
 .stack--md * + * {
   margin-top: var(--stack-margin-md);
