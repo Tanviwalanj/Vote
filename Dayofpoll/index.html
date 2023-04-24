@@ -10,56 +10,82 @@
 
 <body>
 
-<div class="w3-container">
-  <h2></h2>
-</div>
-
 <div class="w3-bar w3-black">
-  <button class="w3-bar-item w3-button" onclick="openCity('London')">Step 1</button>
-  <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Step 2</button>
-  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Step 3</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('London')">Voting Process</button>
+  <!-- <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Step 2</button> -->
+  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Interact with an EVM</button>
 </div>
 
 <div id="London" class="w3-container city">
-  <div class="card">
-    <p>First polling official will check your name on the voter list and check your <strong>ID proof</strong>
-      Second polling official will <strong>ink your finger, give you a slip and take your signature on a register (Form 17A)</strong>
-      You will have to <strong>deposit the slip </strong>at the third polling official and show your inked finger and then proceed to the polling booth</p>
-    <p class="card-footer">Initial Steps</p></div>
-    <img src="people.png" class="people"> 
-    <div class="flex-parent">
-      <div class="input-flex-container">
-        <input type="radio" name="timeline-dot" data-description="1930" checked>
-        <div class="dot-info" data-description="1930">
-          <span class="year">First polling official</span>
-          <span class="label">ID proof</span>
+    <div class='progress'>
+      <div class='progress_inner'>
+        <div class='progress_inner__step'>
+          <label for='step-1'>First polling official</label>
         </div>
-        <input type="radio" name="timeline-dot" data-description="1940">
-        <div class="dot-info" data-description="1940">
-          <span class="year">Second polling official</span>
-          <span class="label">Ink your finger</span>
+        <div class='progress_inner__step'>
+          <label for='step-2'>Second polling official</label>
         </div>
-        <input type="radio" name="timeline-dot" data-description="1950">
-        <div class="dot-info" data-description="1950">
-          <span class="year">Third polling official</span>
-          <span class="label">Deposit the slip</span>
+        <div class='progress_inner__step'>
+          <label for='step-3'>Third polling official</label>
         </div>
-        <!-- <div id="timeline-descriptions-wrapper">
-          <p data-description="1930">And the world rejoiced.</p>
-          <p data-description="1940">Because building roads is inconvenient.</p>
-          <p data-description="1950">Ain’t nobody got time to rake.</p>
-        </div> -->
+        <div class='progress_inner__step'>
+          <label for='step-4'>Electronic Voting Machine booth</label>
+        </div>
+        <div class='progress_inner__step'>
+          <label for='step-5'>Try it!</label>
+        </div>
+        <input checked='checked' id='step-1' name='step' type='radio'>
+        <input id='step-2' name='step' type='radio'>
+        <input id='step-3' name='step' type='radio'>
+        <input id='step-4' name='step' type='radio'>
+        <input id='step-5' name='step' type='radio'>
+        <div class='progress_inner__bar'></div>
+        <div class='progress_inner__bar--set'></div>
+        <div class='progress_inner__tabs'>
+          <div class='tab tab-0'>
+            <h1>First polling official</h1>
+            <p>First polling official will check your name on the voter list and check your ID proof</p>
+          </div>
+          <div class='tab tab-1'>
+            <h1>Second polling official</h1>
+            <p>Second polling official will ink your finger, give you a slip and take your signature on a register (Form 17A)</p>
+          </div>
+          <div class='tab tab-2'>
+            <h1>Third polling official</h1>
+            <p>You will have to deposit the slip at the third polling official and show your inked finger and then proceed to the polling booth</p>
+          </div>
+          <div class='tab tab-3'>
+            <h1>Electronic Voting Machine booth</h1>
+            <p>You can now record your vote on the Electronic Voting Machine by pressing the ballot button opposite the symbol of the candidate of your choice on the Electronic Voting Machine (EVM); You will hear a beep sound</p>
+          </div>
+          <div class='tab tab-4'>
+            <h1>Try it!</h1>
+            <p>Click on the intarct with the EVM button to see how the machine operates</p>
+          </div>
+        </div>
+        <div class='progress_inner__status'>
+          <div class='box_base'></div>
+          <div class='box_string'></div>
+          <div class='box_lid'></div>
+          <div class='box_ribbon'></div>
+          <div class='box_bow'>
+            <div class='box_bow__left'></div>
+            <div class='box_bow__right'></div>
+          </div>
+          <div class='box_item'></div>
+          <div class='box_tag'></div>
+        </div>
       </div>
-    </div>   
+    </div>
 </div>
 
-<div id="Paris" class="w3-container city" style="display:none">
+<!-- <div id="Paris" class="w3-container city" style="display:none">
   <div class="card">
-    <p> Electronic voting is the standard means of conducting elections using <strong>Electronic Voting Machines (EVMs)</strong> in India.</p>
-    <p class="card-footer">electronic voting machine</p>
+    <p> Electronic voting is the standard means of conducting elections using Electronic Voting Machines (EVMs) in India.</p>
+    <p class="card-footer">Electronic Voting Machine</p>
   </div>
   <img src="table.png" class="table"> 
-</div>
+</div> -->
 
 <div id="Tokyo" class="w3-container city" style="display:none">
   <div class="card">
