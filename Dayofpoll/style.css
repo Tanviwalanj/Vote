@@ -722,6 +722,20 @@ html, body{
       }
     }
 
+  @media (max-width: 800px) {
+      .progress_inner__bar--set  { 
+        margin-top: 314px;
+        }
+      }
+
+  @media (max-width: 800px) {
+    .progress_inner__status  { 
+      top: 199px;
+      }
+    }
+  
+
+      
   
 
      
