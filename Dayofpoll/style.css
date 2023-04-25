@@ -695,7 +695,22 @@ html, body{
     .progress_inner { 
       top: 70%;
       margin-left: 20px;
-      width: 300px; 
+      width: 350px; 
+      align-items: center;
+      }
+    }
+
+  @media (max-width: 800px) {
+    .progress_inner__step { 
+      margin-top: 316px;
+      margin-left: 20px;
+      }
+    }
+
+  @media (max-width: 800px) {
+    .progress_inner__tabs .tab { 
+      margin-top: 12px;
+      margin-left: 45px;
       }
     }
 
