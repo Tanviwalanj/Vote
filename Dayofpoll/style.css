@@ -623,15 +623,7 @@ html, body{
     z-index: 4;
     border-radius: 1px;
   }
-  /* .progress_inner__status .box_bow__right, body .progress_inner__status .box_bow__left {
-    width: 6px;
-    height: 10px;
-    background: #be0c21;
-    position: absolute;
-    z-index: 3;
-    opacity: 1;
-    border-radius: 1px;
-  } */
+
   .progress_inner__status .box_bow {
     width: 6px;
     height: 10px;
@@ -641,15 +633,7 @@ html, body{
     background: url(proof.png)
     center / cover no-repeat fixed;
   }
-  /* .progress_inner__status .box_bow__left {
-    left: 6px;
-    transform: rotate(45deg);
-    
-  }
-  .progress_inner__status .box_bow__right {
-    left: -4px;
-    transform: rotate(-45deg);
-  } */
+
   .progress_inner__status .box_tag {
     width: 130px;
     height: 150px;
@@ -703,15 +687,15 @@ html, body{
   @media (max-width: 800px) {
   #London { 
     width: 400px; 
-    height: 200vh;
+    height: 166vh;
     }
   }
 
   @media (max-width: 800px) {
-    .progress { 
-      margin-top: 20px;
+    .progress_inner { 
+      top: 70%;
       margin-left: 20px;
-      width: 50%; 
+      width: 300px; 
       }
     }
 
