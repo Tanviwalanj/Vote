@@ -204,6 +204,14 @@ html, body{
     transform: translatey(0px);
   }
 
+  /* Responsive layout - machine*/
+  @media (max-width: 800px) {
+  .w3-bar-item { 
+  position: sticky;
+    }
+  }
+  
+
   .red{
     /* background-color: red; */
     background-color: var(--glow-color);
@@ -702,14 +710,14 @@ html, body{
 
   @media (max-width: 800px) {
     .progress_inner__step { 
-      margin-top: 316px;
+      margin-top: 101px;
       margin-left: 20px;
       }
     }
 
   @media (max-width: 800px) {
     .progress_inner__tabs .tab { 
-      margin-top: 12px;
+      margin-top: 382px;
       margin-left: 45px;
       }
     }
