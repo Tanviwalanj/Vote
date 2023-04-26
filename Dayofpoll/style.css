@@ -612,7 +612,7 @@ html, body{
   }
   .progress_inner__status .box_base {
     /* background: repeating-linear-gradient(45deg, #986c5d, #986c5d 2px, #775144 2px, #775144 4px); */
-    background: url(People.png)
+    background: url(people.png)
     center / cover no-repeat fixed; 
     width: 116px;
     height: 163px;
