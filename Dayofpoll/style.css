@@ -177,10 +177,10 @@ html, body{
 
   .w3-bar-item {
     background-color: rgb(30, 30, 30);
+    font-family: 'Literata', serif;
     font-size: 1rem;
     color: #D8D7D4;
-    margin: 9px;
-    text-transform: uppercase;
+    margin: 7px;
     letter-spacing: 0.1em;
     text-decoration: none;
     transition: color 200ms ease-out, box-shadow 150ms ease-out, transform 200ms ease-out;
@@ -188,9 +188,12 @@ html, body{
     display: inline-block;
     padding: 0.5em 1em;
     border: 2px solid currentcolor;
-    width: 350px;
-    height: 40px;
-    margin-top: 10px;
+    width: 304px;
+    height: 56px;
+    margin-top: 7px;
+    margin-bottom: 19px;
+    border-radius: 15px;
+    align-items: center;
   
   }
 
@@ -208,6 +211,9 @@ html, body{
   @media (max-width: 800px) {
   .w3-bar-item { 
   position: sticky;
+  margin: 48px;
+  margin-top: -2px;
+  margin-bottom: 19px;
     }
   }
   
@@ -475,7 +481,7 @@ html, body{
   }
   @media (max-width: 800px) {
     .progress_inner__step  { 
-      top: 232px;
+      top: 271px;
       left:5px;
       }
     }
@@ -583,16 +589,19 @@ html, body{
     margin-top: 157px;
     box-shadow: 0px 2px 1px #80b7d5;
     padding: 30px;
+    padding-bottom: 50px;
     background: white;
     border-radius: 10px;
     transition: all 0.2s;
   }
   .progress_inner__tabs .tab h1 {
-    margin: 0;
+    margin: 10px;
+    font-family: 'Literata', serif;
   }
   .progress_inner__tabs .tab p {
     font-weight: 400;
     opacity: 0.8;
+    font-size: 18px;
   }
   .progress_inner__status {
     width: 40px;
@@ -728,8 +737,8 @@ html, body{
 
   @media(max-width: 800px) {
     .progress_inner__tabs .tab { 
-      margin-top: 300px;
-      margin-left: 15px;
+      margin-top: 328px;
+      margin-left: 29px;
       }
     }
 
@@ -741,7 +750,7 @@ html, body{
 
   @media (max-width: 800px) {
     .progress_inner__status  { 
-      top: 113px;
+      top: 161px;
       }
     }
 

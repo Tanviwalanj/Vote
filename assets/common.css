@@ -52,7 +52,7 @@ p {
 .cta-btn {
   color: #FCF2F0;
   font-size: 1.2rem;
-  text-transform: uppercase;
+  font-family: 'Literata', serif;
   letter-spacing: 0.1em;
   text-decoration: none;
   transition: color 200ms ease-out, box-shadow 150ms ease-out, transform 200ms ease-out;
@@ -60,6 +60,7 @@ p {
   display: inline-block;
   padding: 0.5em 1em;
   border: 2px solid currentcolor;
+  border-radius: 15px;
 }
 .cta-btn:hover, .cta-btn:focus {
   color: #FCF2F0;
@@ -298,7 +299,7 @@ h1 {
 @media (max-width: 800px) {
   .Lets .innerVote{ 
     padding: 0em 0em;
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 0;
     margin-left: 0;
     }
@@ -312,25 +313,24 @@ h1 {
       float: left;
       overflow: hidden;
       position: relative;
-      height: 40px;
+      height: 20px;
       top: 0px;
     }
   }
 
-  @media (max-width: 800px) {
-    #title { 
-      font-size: 48px;
-      }
-    }
-
-
   #title {
-    font-size: 55px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
+    font-size: 75px;
+    font-family: 'Literata', serif;
+    font-weight: 450;
     margin: 0;
     color: #FCF2F0; 
   }
+
+  @media (max-width: 800px) {
+    #title { 
+      font-size: 45px;
+      }
+    }
   
   @media (max-width: 800px) {
   .Lets { 
