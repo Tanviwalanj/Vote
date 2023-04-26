@@ -476,7 +476,7 @@ html, body{
   @media (max-width: 800px) {
     .progress_inner__step  { 
       top: 232px;
-      left:20px;
+      left:5px;
       }
     }
 
@@ -727,7 +727,7 @@ html, body{
   @media(max-width: 800px) {
     .progress_inner__tabs .tab { 
       margin-top: 300px;
-      margin-left: 37px;
+      margin-left: 15px;
       }
     }
 
